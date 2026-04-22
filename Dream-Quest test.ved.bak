@@ -1466,7 +1466,7 @@
 				<Link parentLink="F" id="23" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point1" id="23" order="1" lastModified="-1" PointSize="36">
+		<Point name="Point1" id="23" order="1" lastModified="-1" PointSize="49">
 			<PointPosition x="636" y="980"/>
 			<PointRelations>
 				<Link parentLink="F" id="22" tableId="5" LinkAny="F"/>
@@ -1474,7 +1474,7 @@
 				<Link parentLink="F" id="26" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point2" id="24" order="2" lastModified="-1" PointSize="31">
+		<Point name="Point2" id="24" order="2" lastModified="-1" PointSize="39">
 			<PointPosition x="669" y="892"/>
 			<PointRelations>
 				<Link parentLink="F" id="23" tableId="5" LinkAny="F"/>
@@ -1552,13 +1552,13 @@
 				<Link parentLink="F" id="46" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point0" id="50" order="0" lastModified="-1" PointSize="42">
+		<Point name="Point0" id="50" order="0" lastModified="-1" PointSize="53">
 			<PointPosition x="405" y="1019"/>
 			<PointRelations>
 				<Link parentLink="F" id="51" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point1" id="51" order="1" lastModified="-1" PointSize="34">
+		<Point name="Point1" id="51" order="1" lastModified="-1" PointSize="46">
 			<PointPosition x="466" y="932"/>
 			<PointRelations>
 				<Link parentLink="F" id="50" tableId="5" LinkAny="F"/>
@@ -1698,13 +1698,13 @@
 				<Link parentLink="F" id="70" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point4" id="73" order="4" lastModified="-1" PointSize="41">
+		<Point name="Point4" id="73" order="4" lastModified="-1" PointSize="44">
 			<PointPosition x="2606" y="1002"/>
 			<PointRelations>
 				<Link parentLink="F" id="70" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point3" id="74" order="5" lastModified="-1" PointSize="32">
+		<Point name="Point3" id="74" order="5" lastModified="-1" PointSize="37">
 			<PointPosition x="2624" y="818"/>
 			<PointRelations>
 				<Link parentLink="F" id="70" tableId="5" LinkAny="F"/>
@@ -5812,12 +5812,12 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="2" path="images/animations/RANDY/IMG_5119.png" Transparency="2">
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-4.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="530" y="1684"/>
+			<AnimationCenter x="726" y="1359"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -5829,12 +5829,12 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="2" path="images/animations/RANDY/IMG_5118.png" Transparency="2">
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5155.PNG" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="454" y="1684"/>
+			<AnimationCenter x="714" y="1359"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -5846,12 +5846,12 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="2" path="images/animations/RANDY/IMG_5118.png" Transparency="2">
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5155.PNG" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="454" y="1684"/>
+			<AnimationCenter x="714" y="1359"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -5863,12 +5863,12 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="2" path="images/animations/RANDY/IMG_5119.png" Transparency="2">
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-4.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="530" y="1684"/>
+			<AnimationCenter x="726" y="1359"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -5876,16 +5876,34 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="front" id="5" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+		<Animation name="front" id="5" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="250" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="3" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="2" path="images/animations/RANDY/IMG_5119.png" Transparency="2">
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-1.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="530" y="1684"/>
+			<AnimationCenter x="726" y="1352"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -5893,16 +5911,34 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="back" id="6" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+		<Animation name="back" id="6" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="250" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="3" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="2" path="images/animations/RANDY/IMG_5118.png" Transparency="2">
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5155.PNG" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5155.PNG" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5155.PNG" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5156.PNG" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5157.PNG" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5158.PNG" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5158.PNG" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="454" y="1684"/>
+			<AnimationCenter x="714" y="1359"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -5910,16 +5946,31 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="left" id="7" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+		<Animation name="left" id="7" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="250" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="3" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="2" path="images/animations/RANDY/IMG_5118.png" Transparency="2">
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5155.PNG" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5155.PNG" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5155.PNG" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5156.PNG" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5157.PNG" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle left/IMG_5158.PNG" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="454" y="1684"/>
+			<AnimationCenter x="714" y="1359"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -5927,16 +5978,34 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="right" id="8" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+		<Animation name="right" id="8" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="250" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="3" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="2" path="images/animations/RANDY/IMG_5119.png" Transparency="2">
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="images/animations/RANDY/Idle right/IMG_5129-1.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="530" y="1684"/>
+			<AnimationCenter x="726" y="1359"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -7942,7 +8011,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="16" versionedId="-1" tableId="28">
+	<AnimationFrames newId="23" versionedId="-1" tableId="28">
 		<AnimationFrame name="Animation0 - Property Frame" id="13" order="0" lastModified="-1" AnimationFrameIndex="1" AnimationFrameSound="" AnimationFrameSoundVolume="0" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="T" id="157" tableId="7" LinkAny="F"/>
 		</AnimationFrame>
