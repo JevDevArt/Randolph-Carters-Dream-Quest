@@ -1023,6 +1023,7 @@
 				<Link parentLink="T" id="249" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="252" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="273" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="276" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1032,8 +1033,8 @@
 			<SceneConditions>
 			</SceneConditions>
 			<SceneActions>
-				<Link parentLink="T" id="53" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="111" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="53" tableId="7" LinkAny="F"/>
 			</SceneActions>
 			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1321,6 +1322,8 @@
 				<Link parentLink="T" id="270" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="274" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="275" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="277" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="278" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -2587,7 +2590,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="276" versionedId="-1" tableId="6">
+	<Objects newId="279" versionedId="-1" tableId="6">
 		<Object name="door" id="1" order="20" lastModified="-1" ObjectDirection="-1" ObjectCenter="482" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="2" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -2616,7 +2619,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="PlayerStartingPosition" id="2" order="28" lastModified="-1" ObjectDirection="0" ObjectCenter="168" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="PlayerStartingPosition" id="2" order="29" lastModified="-1" ObjectDirection="0" ObjectCenter="168" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="4" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2841,7 +2844,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="desk draver" id="24" order="46" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="desk draver" id="24" order="47" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="59" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="1206" y="637"/>
@@ -3024,7 +3027,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="kitchen door" id="35" order="41" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="kitchen door" id="35" order="42" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="88" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="84" y="162"/>
@@ -3293,7 +3296,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="spwn" id="61" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="spwn" id="61" order="5" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="124" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -3308,14 +3311,14 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="217" y="922"/>
+			<ObjectPosition x="894" y="989"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="NON-PICKABLE" id="62" order="29" lastModified="-1" ObjectDirection="-1" ObjectCenter="40" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="NON-PICKABLE" id="62" order="30" lastModified="-1" ObjectDirection="-1" ObjectCenter="40" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="129" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -3337,7 +3340,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="books" id="68" order="31" lastModified="-1" ObjectDirection="0" ObjectCenter="14" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="T" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="books" id="68" order="32" lastModified="-1" ObjectDirection="0" ObjectCenter="14" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="T" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="135" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="2186" y="406"/>
@@ -3366,7 +3369,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="books fixed" id="69" order="37" lastModified="-1" ObjectDirection="-1" ObjectCenter="34" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="T" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="books fixed" id="69" order="40" lastModified="-1" ObjectDirection="-1" ObjectCenter="34" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="T" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="136" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -3388,7 +3391,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="brr" id="71" order="30" lastModified="-1" ObjectDirection="-1" ObjectCenter="21" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="T" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="brr" id="71" order="31" lastModified="-1" ObjectDirection="-1" ObjectCenter="21" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="T" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="139" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -3457,7 +3460,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="Cat bed flat" id="75" order="25" lastModified="-1" ObjectDirection="180" ObjectCenter="397" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="Cat bed flat" id="75" order="27" lastModified="-1" ObjectDirection="180" ObjectCenter="397" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="146" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="443" y="326"/>
@@ -3486,7 +3489,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="cat bed up" id="76" order="36" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="cat bed up" id="76" order="37" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="147" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -3508,7 +3511,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="kitty block" id="77" order="35" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="kitty block" id="77" order="36" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="148" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -3530,7 +3533,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="szuflada 3" id="78" order="48" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="szuflada 3" id="78" order="49" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="149" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="297" y="766"/>
@@ -3652,22 +3655,33 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="kotek dynamiczny!!!" id="84" order="23" lastModified="-1" ObjectDirection="-1" ObjectCenter="405" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="kotek dynamiczny!!!" id="84" order="23" lastModified="-1" ObjectDirection="0" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="157" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
-				<point x="364" y="278"/>
-				<point x="360" y="337"/>
-				<point x="334" y="366"/>
-				<point x="384" y="393"/>
-				<point x="433" y="373"/>
-				<point x="421" y="324"/>
-				<point x="425" y="274"/>
-				<point x="400" y="290"/>
-				<point x="377" y="289"/>
+				<point x="384" y="304"/>
+				<point x="405" y="316"/>
+				<point x="423" y="311"/>
+				<point x="438" y="299"/>
+				<point x="447" y="320"/>
+				<point x="444" y="346"/>
+				<point x="444" y="375"/>
+				<point x="419" y="385"/>
+				<point x="391" y="379"/>
+				<point x="381" y="365"/>
+				<point x="376" y="339"/>
+				<point x="377" y="330"/>
+				<point x="324" y="337"/>
+				<point x="310" y="337"/>
+				<point x="299" y="353"/>
+				<point x="292" y="340"/>
+				<point x="303" y="327"/>
+				<point x="317" y="329"/>
+				<point x="353" y="315"/>
+				<point x="389" y="321"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="76" tableId="13" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="91" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="119" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="120" tableId="7" LinkAny="F"/>
@@ -3678,6 +3692,9 @@
 				<Link parentLink="T" id="17" tableId="10" LinkAny="F"/>
 			</ObjectConditions>
 			<ObjectAnimations>
+				<Link parentLink="T" id="91" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="95" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="96" tableId="9" LinkAny="F"/>
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
@@ -3688,7 +3705,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="Cat bed up" id="86" order="27" lastModified="-1" ObjectDirection="180" ObjectCenter="385" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="Cat bed up" id="86" order="28" lastModified="-1" ObjectDirection="180" ObjectCenter="385" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="177" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="440" y="312"/>
@@ -3716,7 +3733,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="key box" id="87" order="44" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="key box" id="87" order="46" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="184" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="303" y="374"/>
@@ -3990,7 +4007,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="--box selections--" id="100" order="40" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="--box selections--" id="100" order="41" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="201" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -4012,7 +4029,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="book hideout" id="101" order="42" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="book hideout" id="101" order="44" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="203" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="890" y="300"/>
@@ -5193,7 +5210,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="bedroom entry" id="171" order="33" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="bedroom entry" id="171" order="34" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="344" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="2508" y="271"/>
@@ -5260,7 +5277,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="esc bedroom" id="203" order="34" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="esc bedroom" id="203" order="35" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="410" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -5326,7 +5343,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="axebox" id="207" order="32" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="axebox" id="207" order="33" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="414" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="2270" y="426"/>
@@ -5909,7 +5926,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="szuflada 1" id="240" order="50" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="szuflada 1" id="240" order="51" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="466" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="292" y="617"/>
@@ -5988,7 +6005,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="szuflada 2" id="245" order="49" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="szuflada 2" id="245" order="50" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="474" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="298" y="696"/>
@@ -6043,7 +6060,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="desk door" id="249" order="47" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="desk door" id="249" order="48" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="483" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="1201" y="700"/>
@@ -6125,7 +6142,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="tutoriel" id="252" order="51" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="tutoriel" id="252" order="52" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="486" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="1287" y="323"/>
@@ -6458,38 +6475,44 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="zoog" id="265" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="zoog" id="265" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="1078" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="516" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
-				<point x="9238" y="708"/>
-				<point x="9254" y="846"/>
-				<point x="9166" y="934"/>
-				<point x="9236" y="1020"/>
-				<point x="9294" y="984"/>
-				<point x="9290" y="1066"/>
-				<point x="9374" y="1038"/>
-				<point x="9386" y="1014"/>
-				<point x="9490" y="1034"/>
-				<point x="9492" y="954"/>
-				<point x="9628" y="954"/>
-				<point x="9678" y="880"/>
-				<point x="9632" y="850"/>
-				<point x="9548" y="830"/>
-				<point x="9508" y="722"/>
-				<point x="9398" y="698"/>
-				<point x="9356" y="672"/>
-				<point x="9246" y="686"/>
+				<point x="9278" y="850"/>
+				<point x="9236" y="896"/>
+				<point x="9230" y="996"/>
+				<point x="9322" y="994"/>
+				<point x="9508" y="1020"/>
+				<point x="9620" y="944"/>
+				<point x="9616" y="884"/>
+				<point x="9676" y="922"/>
+				<point x="9702" y="854"/>
+				<point x="9668" y="806"/>
+				<point x="9708" y="724"/>
+				<point x="9674" y="670"/>
+				<point x="9554" y="678"/>
+				<point x="9534" y="730"/>
+				<point x="9404" y="726"/>
+				<point x="9362" y="780"/>
+				<point x="9312" y="772"/>
+				<point x="9252" y="770"/>
+				<point x="9180" y="802"/>
+				<point x="9248" y="846"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="206" tableId="13" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="103" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="385" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="396" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 				<Link parentLink="T" id="72" tableId="10" LinkAny="F"/>
 			</ObjectConditions>
 			<ObjectAnimations>
+				<Link parentLink="T" id="103" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="104" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="105" tableId="9" LinkAny="F"/>
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
@@ -6500,15 +6523,20 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="bush" id="268" order="3" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="bush" id="268" order="6" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="520" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
-				<point x="1465" y="679"/>
-				<point x="1406" y="949"/>
-				<point x="1652" y="949"/>
-				<point x="1851" y="867"/>
-				<point x="1875" y="679"/>
-				<point x="1617" y="644"/>
+				<point x="2212" y="866"/>
+				<point x="2306" y="862"/>
+				<point x="2444" y="882"/>
+				<point x="2486" y="810"/>
+				<point x="2466" y="738"/>
+				<point x="2386" y="686"/>
+				<point x="2312" y="684"/>
+				<point x="2272" y="710"/>
+				<point x="2232" y="720"/>
+				<point x="2218" y="784"/>
+				<point x="2220" y="808"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6552,7 +6580,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="move" id="270" order="4" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="move" id="270" order="7" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="522" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="9693" y="750"/>
@@ -6628,7 +6656,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="telep test" id="273" order="52" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="telep test" id="273" order="53" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="526" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="2618" y="42"/>
@@ -6677,7 +6705,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="trees" id="275" order="5" lastModified="-1" ObjectDirection="-1" ObjectCenter="1320" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="trees" id="275" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="1320" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="529" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -6699,8 +6727,125 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
+		<Object name="kotek statyczny" id="276" order="25" lastModified="-1" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="531" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="930" y="781"/>
+				<point x="907" y="765"/>
+				<point x="919" y="799"/>
+				<point x="916" y="816"/>
+				<point x="930" y="829"/>
+				<point x="865" y="882"/>
+				<point x="863" y="903"/>
+				<point x="810" y="929"/>
+				<point x="817" y="964"/>
+				<point x="870" y="980"/>
+				<point x="890" y="952"/>
+				<point x="932" y="946"/>
+				<point x="971" y="945"/>
+				<point x="961" y="917"/>
+				<point x="975" y="834"/>
+				<point x="985" y="817"/>
+				<point x="974" y="802"/>
+				<point x="984" y="764"/>
+				<point x="964" y="768"/>
+				<point x="946" y="776"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="97" tableId="9" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="393" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="394" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="397" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="97" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="98" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="635" y="938"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="cats" id="277" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="23" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="534" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="100" tableId="9" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="100" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="talkcat" id="278" order="3" lastModified="-1" ObjectDirection="180" ObjectCenter="912" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="535" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="437" y="783"/>
+				<point x="408" y="698"/>
+				<point x="465" y="715"/>
+				<point x="513" y="709"/>
+				<point x="556" y="678"/>
+				<point x="554" y="799"/>
+				<point x="537" y="905"/>
+				<point x="556" y="914"/>
+				<point x="541" y="943"/>
+				<point x="442" y="966"/>
+				<point x="431" y="899"/>
+				<point x="408" y="918"/>
+				<point x="406" y="970"/>
+				<point x="352" y="934"/>
+				<point x="325" y="851"/>
+				<point x="255" y="833"/>
+				<point x="269" y="784"/>
+				<point x="220" y="763"/>
+				<point x="264" y="668"/>
+				<point x="306" y="669"/>
+				<point x="379" y="723"/>
+				<point x="388" y="773"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="101" tableId="9" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="395" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="101" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="102" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="882" y="995"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
 	</Objects>
-	<Actions newId="393" versionedId="-1" tableId="7">
+	<Actions newId="398" versionedId="-1" tableId="7">
 		<Action name="F4" id="0" order="0" lastModified="-1" ActionExecutionType="1073741885" ActionDisabled="F">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6912,8 +7057,11 @@
 				<Link parentLink="T" id="148" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="259" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="271" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1056" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1058" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1284" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1290" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1291" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1292" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1294" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Called by other action" id="54" order="0" lastModified="-1" ActionExecutionType="5" ActionDisabled="F">
@@ -7240,10 +7388,11 @@
 			<ActionCommand parentLink="F" id="9" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="339" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="345" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="396" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="344" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1055" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1260" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1261" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1273" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1275" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="'take' executed" id="120" order="5" lastModified="-1" ActionExecutionType="6" ActionDisabled="F">
@@ -7302,6 +7451,9 @@
 				<Link parentLink="T" id="340" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="341" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="342" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1295" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1296" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1297" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="'look' executed" id="134" order="6" lastModified="-1" ActionExecutionType="6" ActionDisabled="F">
@@ -7309,6 +7461,9 @@
 			<ActionCommand parentLink="F" id="10" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="343" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1257" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1258" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1259" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="'take' executed" id="135" order="0" lastModified="-1" ActionExecutionType="6" ActionDisabled="F">
@@ -8540,9 +8695,11 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="1227" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1228" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1229" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1231" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1252" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1282" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1283" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="'walk' executed" id="386" order="0" lastModified="-1" ActionExecutionType="6" ActionDisabled="F">
@@ -8603,8 +8760,58 @@
 				<Link parentLink="T" id="1251" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="'take' executed" id="393" order="0" lastModified="-1" ActionExecutionType="6" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="11" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1264" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1265" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1266" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1267" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1268" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'look' executed" id="394" order="1" lastModified="-1" ActionExecutionType="6" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="10" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1269" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1270" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1271" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1272" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'look' executed" id="395" order="0" lastModified="-1" ActionExecutionType="6" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="10" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1276" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1277" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1278" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'take' executed" id="396" order="1" lastModified="-1" ActionExecutionType="6" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="11" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1279" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1280" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1281" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Called by other action" id="397" order="2" lastModified="-1" ActionExecutionType="5" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1285" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1286" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1287" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1288" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1289" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="1252" versionedId="-1" tableId="8">
+	<ActionParts newId="1298" versionedId="-1" tableId="8">
 		<ActionPart name="Quit game" id="1" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -8781,7 +8988,7 @@
 			<ActionPartLink parentLink="F" id="0" tableId="17" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Value 'location' = 1" id="115" order="0" lastModified="-1" ActionPartCommand="70" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Value 'location' = 1" id="115" order="14" lastModified="-1" ActionPartCommand="70" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="3" tableId="20" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -8853,7 +9060,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set interface 'LOCATION'" id="148" order="6" lastModified="-1" ActionPartCommand="90" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Set interface 'LOCATION'" id="148" order="17" lastModified="-1" ActionPartCommand="90" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="2" tableId="1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -9049,8 +9256,8 @@
 			<ActionPartLink parentLink="T" id="138" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set visibility of object 'books fixed' to 0%" id="259" order="2" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
-			<ActionPartLink parentLink="F" id="69" tableId="6" LinkAny="F"/>
+		<ActionPart name="Set visibility of object 'kotek statyczny' to 0%" id="259" order="9" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="276" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="betaRandy: no need for that" id="260" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
@@ -9081,7 +9288,7 @@
 			<ActionPartLink parentLink="F" id="12" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set visibility of object 'books' to 100%" id="271" order="5" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Set visibility of object 'books' to 100%" id="271" order="16" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="68" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -9209,32 +9416,24 @@
 			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition 'cat-treats-used' to true" id="339" order="3" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Change condition 'cat-treats-used' to true" id="339" order="7" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Gamma Randy: it's maple!" id="340" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Gamma Randy: it's maple!" id="340" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="T" id="173" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Else If condition 'cat-treats-used' is true" id="341" order="2" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Else If condition 'cat-treats-used' is true" id="341" order="5" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Gamma Randy: i'm glad this worked" id="342" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Gamma Randy: i'm glad this worked" id="342" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="T" id="174" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Gamma Randy: she's so pretty!" id="343" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Gamma Randy: she's so pretty!" id="343" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="T" id="175" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Pause for 500 milliseconds" id="344" order="1" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Gamma Randy: meow!!!" id="345" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
-			<ActionPartLink parentLink="T" id="176" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Set visibility of object 'Cat bed flat' to 0%" id="346" order="3" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
@@ -9369,7 +9568,7 @@
 			<ActionPartLink parentLink="F" id="21" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Remove item 'cat treats' from character 'Current character'" id="396" order="5" lastModified="-1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Remove item 'cat treats' from character 'Current character'" id="396" order="6" lastModified="-1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="82" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -10577,18 +10776,6 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="31" tableId="4" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Move object 'kotek dynamiczny!!!' by (400,560)" id="1055" order="4" lastModified="-1" ActionPartCommand="158" ActionPartPath="" ActionPartInt="400" ActionPartAltInt="560" ActionPartAltInt2="111" ActionPartString="" ActionPartDisabled="F">
-			<ActionPartLink parentLink="F" id="84" tableId="6" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="If condition 'cat-treats-used' is true" id="1056" order="7" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
-			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Move object 'kotek dynamiczny!!!' by (-391,-353)" id="1058" order="8" lastModified="-1" ActionPartCommand="158" ActionPartPath="" ActionPartInt="-391" ActionPartAltInt="-353" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
-			<ActionPartLink parentLink="F" id="84" tableId="6" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Set visibility of object 'bc' to 0%" id="1061" order="3" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="255" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -11033,7 +11220,7 @@
 			<ActionPartLink parentLink="F" id="71" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound 'Metal pipe falling sound effect but its more violent.ogg'" id="1225" order="0" lastModified="-1" ActionPartCommand="24" ActionPartPath="sound\sfx\Metal pipe falling sound effect but its more violent.ogg" ActionPartInt="-36" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Play sound 'Metal pipe falling sound effect but its more violent.ogg'" id="1225" order="0" lastModified="-1" ActionPartCommand="24" ActionPartPath="sound/sfx/Metal pipe falling sound effect but its more violent.ogg" ActionPartInt="-36" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -11041,15 +11228,11 @@
 			<ActionPartLink parentLink="F" id="269" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound 'Metal pipe falling sound effect but its more violent.ogg'" id="1227" order="0" lastModified="-1" ActionPartCommand="24" ActionPartPath="sound\sfx\Metal pipe falling sound effect but its more violent.ogg" ActionPartInt="-28" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Play sound 'Metal pipe falling sound effect but its more violent.ogg'" id="1227" order="0" lastModified="-1" ActionPartCommand="24" ActionPartPath="sound/sfx/Metal pipe falling sound effect but its more violent.ogg" ActionPartInt="-28" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Move object 'zoog' by (0,500)" id="1228" order="1" lastModified="-1" ActionPartCommand="158" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="500" ActionPartAltInt2="60" ActionPartString="" ActionPartDisabled="F">
-			<ActionPartLink parentLink="F" id="265" tableId="6" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Set way system 'utahar forest: Way system LATER'" id="1229" order="2" lastModified="-1" ActionPartCommand="133" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Set way system 'utahar forest: Way system LATER'" id="1229" order="4" lastModified="-1" ActionPartCommand="133" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="28" tableId="29" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -11057,7 +11240,7 @@
 			<ActionPartLink parentLink="F" id="11" tableId="29" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition 'zoog-fed' to true" id="1231" order="3" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Change condition 'zoog-fed' to true" id="1231" order="5" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="72" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -11065,11 +11248,11 @@
 			<ActionPartLink parentLink="F" id="72" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play video 'CREDITS.mkv'" id="1234" order="4" lastModified="-1" ActionPartCommand="66" ActionPartPath="cutscenes\CREDITS.mkv" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Play video 'CREDITS.mkv'" id="1234" order="4" lastModified="-1" ActionPartCommand="66" ActionPartPath="cutscenes/CREDITS.mkv" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound 'Kids Cheering - Sound Effect (HD).ogg'" id="1235" order="0" lastModified="-1" ActionPartCommand="24" ActionPartPath="sound\sfx\Kids Cheering - Sound Effect (HD).ogg" ActionPartInt="-10" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Play sound 'Kids Cheering - Sound Effect (HD).ogg'" id="1235" order="0" lastModified="-1" ActionPartCommand="24" ActionPartPath="sound/sfx/Kids Cheering - Sound Effect (HD).ogg" ActionPartInt="-10" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -11125,8 +11308,160 @@
 			<ActionPartLink parentLink="F" id="89" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Remove item 'meat' from character 'Current character'" id="1252" order="6" lastModified="-1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="269" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'shelfcat-bother1' and wait" id="1257" order="3" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="95" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'shelfcat-idle'" id="1258" order="4" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="91" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'shelfcat-idle'" id="1259" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="91" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'shelfcat-fed' and wait" id="1260" order="5" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="96" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Set visibility of object 'kotek statyczny' to 100%" id="1261" order="9" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="276" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Gamma Randy: !!!!!" id="1264" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="532" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Set interface 'catpat'" id="1265" order="1" lastModified="-1" ActionPartCommand="90" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="7" tableId="1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show 'Miscellaneous'" id="1266" order="2" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="4" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Pause for 3 seconds" id="1267" order="3" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="3" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'Miscellaneous'" id="1268" order="4" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="4" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'catsit-idle'" id="1269" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="97" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'catsit-bother' and wait" id="1270" order="1" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="98" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'catsit-idle'" id="1271" order="2" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="97" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Gamma Randy: she's so pretty!" id="1272" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="533" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'shelfcat-idle'" id="1273" order="3" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="91" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Set visibility of object 'kotek dynamiczny!!!' to 0%" id="1275" order="8" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="84" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'talkcat-talk' and wait" id="1276" order="1" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="102" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'talkcat-idle'" id="1277" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="101" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'talkcat-idle' and wait" id="1278" order="2" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="101" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'zoog-idle'" id="1279" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="103" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'zoog-idle' and wait" id="1280" order="2" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="103" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'zoog-attack' and wait" id="1281" order="1" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="104" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'zoog-idle'" id="1282" order="2" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="103" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'zoog-fed' and wait" id="1283" order="3" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="105" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Set visibility of object 'books fixed' to 0%" id="1284" order="15" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="69" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'cat-treats-used' is true" id="1285" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Set visibility of object 'kotek statyczny' to 100%" id="1286" order="1" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="276" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Else" id="1287" order="2" lastModified="-1" ActionPartCommand="5" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Set visibility of object 'kotek statyczny' to 0%" id="1288" order="3" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="276" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="1289" order="4" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'cat-treats-used' is false" id="1290" order="8" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="1291" order="13" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Else If condition 'cat-treats-used' is true" id="1292" order="10" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Set visibility of object 'kotek statyczny' to 100%" id="1294" order="12" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="276" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'shelfcat-idle'" id="1295" order="1" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="91" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'shelfcat-bother1' and wait" id="1296" order="2" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="95" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'shelfcat-idle'" id="1297" order="3" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="91" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="90" versionedId="-1" tableId="9">
+	<Animations newId="106" versionedId="-1" tableId="9">
 		<Animation name="front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="150" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="391" tableId="7" LinkAny="F"/>
@@ -11135,6 +11470,54 @@
 					<position x="0" y="0"/>
 				</sprite>
 				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_02.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_03.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_04.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_05.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_06.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_07.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_08.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_09.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_10.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_03.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_04.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_05.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_06.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_07.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_08.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_09.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_10.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_03.png" Transparency="2">
@@ -11176,6 +11559,54 @@
 			<AnimationAction parentLink="F" id="390" tableId="7" LinkAny="F"/>
 			<AnimationSprites>
 				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_01.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_02.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_03.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_04.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_05.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_06.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_07.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_08.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_09.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_10.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_03.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_04.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_05.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_06.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_07.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_08.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_09.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_02.png" Transparency="2">
@@ -11249,6 +11680,54 @@
 				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_10.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_03.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_04.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_05.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_06.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_07.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_08.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_09.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_02.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_03.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_04.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_05.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_06.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_07.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_08.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_09.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk left/frame_10.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="714" y="1359"/>
@@ -11267,6 +11746,54 @@
 					<position x="0" y="0"/>
 				</sprite>
 				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_02.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_03.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_04.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_05.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_06.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_07.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_08.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_09.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_10.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_03.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_04.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_05.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_06.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_07.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_08.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_09.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_10.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 				<sprite name="" pause="-1" path="images/animations/RANDY/walk right/frame_03.png" Transparency="2">
@@ -13411,6 +13938,715 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
+		<Animation name="shelfcat-idle" id="91" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="400" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="3" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="-6" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat idle/frame_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat idle/frame_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat idle/frame_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat idle/frame_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="shelfcat-bother1" id="95" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="400" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="3" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="-6" y="-1"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat bother/frame_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat bother/frame_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat bother/frame_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat bother/frame_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat bother/frame_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat bother/frame_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="shelfcat-fed" id="96" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="100" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="-6" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_01.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_02.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_03.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_04.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_05.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_06.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_07.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_08.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_09.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_10.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_11.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_12.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_13.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_14.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_15.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_16.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_17.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_18.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_19.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_20.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_21.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_22.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_23.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_24.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_25.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_26.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_27.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_28.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_29.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_30.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_31.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_32.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_33.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_34.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_35.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_36.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_37.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_38.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_39.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_40.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_41.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_42.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_43.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_44.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_45.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_46.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_47.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_48.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_49.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_50.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_51.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_52.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_53.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat jump/frame_54.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="catsit-idle" id="97" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="250" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat 2nd idle/frame_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat 2nd idle/frame_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat 2nd idle/frame_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="catsit-bother" id="98" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="250" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat 2nd idle 2/frame_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat 2nd idle 2/frame_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat 2nd idle 2/frame_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/shelfcat/Shelfcat 2nd idle 2/frame_4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="catss" id="100" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="400" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="8" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="images/animations/dreamcats/Dreamcats entry/frame_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/dreamcats/Dreamcats entry/frame_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/dreamcats/Dreamcats entry/frame_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/dreamcats/Dreamcats entry/frame_4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="talkcat-idle" id="101" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="400" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="212" y="614"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="images/animations/dreamcats/Convocat idle/frame_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/dreamcats/Convocat idle/frame_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/dreamcats/Convocat idle/frame_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/dreamcats/Convocat idle/frame_4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="talkcat-talk" id="102" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="4" AnimationPause="400" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="212" y="614"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="images/animations/dreamcats/Convocat meow/frame_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/dreamcats/Convocat meow/frame_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/dreamcats/Convocat meow/frame_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/dreamcats/Convocat meow/frame_4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="zoog-idle" id="103" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="400" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="8090" y="-2"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog idle/frame_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog idle/frame_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog idle/frame_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog idle/frame_4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog idle/frame_5.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="zoog-attack" id="104" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="2" AnimationPause="300" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="3" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="8089" y="-2"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog attack/frame_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog attack/frame_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog attack/frame_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog attack/frame_4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog attack/frame_5.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog attack/frame_6.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog attack/frame_7.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="zoog-fed" id="105" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="50" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="8089" y="-2"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_01.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_02.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_03.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_04.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_05.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_06.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_07.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_08.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_09.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_10.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_11.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_12.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_13.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_14.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_15.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_16.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_17.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_18.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_19.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_20.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_21.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_22.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_23.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_24.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_25.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_26.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_27.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_28.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_29.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_30.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_31.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_32.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_33.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_34.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_35.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_36.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_37.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_38.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_39.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_40.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_41.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_42.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_43.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_44.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_45.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_46.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_47.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_48.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_49.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_50.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_51.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_52.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_53.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_54.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_55.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_56.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_57.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_58.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_59.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_60.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_61.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_62.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_63.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_64.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_65.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_66.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_67.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_68.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_69.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_70.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_71.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_72.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_73.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_74.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_75.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_76.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_77.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_78.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_79.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_80.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_81.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_82.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_83.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_84.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_85.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_86.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_87.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_88.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_89.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="images/animations/zoog/Zoog fed/frame_90.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
 	</Animations>
 	<Conditions newId="73" versionedId="-1" tableId="10">
 		<Condition name="nyarl-coin-in-the-drawer" id="4" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="T" ConditionReturnNegate="F" ConditionOperator="0">
@@ -13592,7 +14828,7 @@
 	</Dialogs>
 	<DialogParts newId="0" versionedId="-1" tableId="12">
 	</DialogParts>
-	<Sprites newId="212" versionedId="-1" tableId="13">
+	<Sprites newId="213" versionedId="-1" tableId="13">
 		<Sprite name="Unnamed" id="0" order="0" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -13841,11 +15077,6 @@
 		<Sprite name="Image" id="74" order="74" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="images/items/inventory/CAT TREATS.png" Transparency="2">
 				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
-		<Sprite name="Image" id="76" order="76" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="images/test assets/cat placeholder.webp.png" Transparency="2">
-				<position x="328" y="274"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="78" order="71" lastModified="-1">
@@ -14198,11 +15429,6 @@
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
-		<Sprite name="Image" id="206" order="206" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="images/test assets/zoog.png" Transparency="2">
-				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
 		<Sprite name="Image" id="208" order="208" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="images/items/inventory/MEAT.png" Transparency="2">
 				<position x="0" y="0"/>
@@ -14224,7 +15450,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="530" versionedId="-1" tableId="14">
+	<Texts newId="536" versionedId="-1" tableId="14">
 		<Text name="Id: 0 - : Rands workroom" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -14773,11 +15999,6 @@
 		<Text name="Id: 175 - Rands workroom: kotek dynamiczny!!!: 'look' executed" id="175" order="175" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="she's so pretty!" path="" int="1"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 176 - Rands workroom: kotek dynamiczny!!!: 'cat treats' dropped (immediate)" id="176" order="176" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="meow!!!" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 177 - Rands workroom: Cat bed up" id="177" order="146" lastModified="-1">
@@ -15659,7 +16880,7 @@
 		</Text>
 		<Text name="Unnamed" id="516" order="516" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="" path="" int="1"/>
+				<text Text="zoog" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="520" order="520" lastModified="-1">
@@ -15710,6 +16931,31 @@
 		<Text name="Unnamed" id="529" order="529" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="531" order="531" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="maple" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 159 - Rands workroom: kotek dynamiczny!!!: 'take' executed" id="532" order="158" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="!!!!!" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 175 - Rands workroom: kotek dynamiczny!!!: 'look' executed" id="533" order="175" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="she's so pretty!" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="534" order="534" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="535" order="535" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="talkcat" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
@@ -15864,7 +17110,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="22" versionedId="-1" tableId="28">
+	<AnimationFrames newId="16" versionedId="-1" tableId="28">
 		<AnimationFrame name="Animation0 - Property Frame" id="13" order="0" lastModified="-1" AnimationFrameIndex="1" AnimationFrameSound="" AnimationFrameSoundVolume="0" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="T" id="157" tableId="7" LinkAny="F"/>
 		</AnimationFrame>
@@ -15875,7 +17121,7 @@
 			<AnimationFrameAction parentLink="T" id="159" tableId="7" LinkAny="F"/>
 		</AnimationFrame>
 	</AnimationFrames>
-	<WaySystems newId="30" versionedId="-1" tableId="29">
+	<WaySystems newId="29" versionedId="-1" tableId="29">
 		<WaySystem name="Way system0" id="1" order="0" lastModified="-1" WaySystemScaleInterpolation="-1">
 			<WaySystemBorder>
 				<point x="108" y="1043"/>
@@ -15975,8 +17221,8 @@
 		</WaySystem>
 		<WaySystem name="Way system0" id="11" order="0" lastModified="-1" WaySystemScaleInterpolation="-1">
 			<WaySystemBorder>
-				<point x="29" y="1043"/>
-				<point x="65" y="817"/>
+				<point x="909" y="1075"/>
+				<point x="769" y="903"/>
 				<point x="9123" y="904"/>
 				<point x="9218" y="1043"/>
 			</WaySystemBorder>
